@@ -1,0 +1,43 @@
+$white: #ffffff;
+$gray-25: #fcfcfd;
+$gray-50: #f9fafb;
+$gray-100: #f3f4f6;
+$gray-200: #e5e7eb;
+$gray-300: #d2d6db;
+$gray-400: #9da4ae;
+$gray-500: #6c737f;
+$gray-600: #4d5761;
+$gray-700: #384250;
+$gray-800: #1f2a37;
+$gray-900: #111927;
+$red-50: #fff5f7; // if bg: text color - A30927
+$red-100: #feebef;
+$red-200: #fdd7de;
+$red-300: #fbafbe;
+$red-400: #f9869d;
+$red-500: #f75e7d; // from this if bg: text color - white
+$red-600: #f5365c;
+$red-700: #d70b34;
+$red-800: #bb0a2d;
+$red-900: #a30927;
+$light-blue: #00a5ff;
+$green-100: #80ffdb;
+$telegram: #27a8e9;
+
+$project-colors: (
+  "white": $white,
+  "gray-25": $gray-25,
+  "gray-50": $gray-50,
+  "gray-100": $gray-100,
+  "gray-200": $gray-200,
+  "gray-300": $gray-300,
+  "gray-400": $gray-400,
+  "gray-500": $gray-500,
+  "gray-600": $gray-600,
+  "gray-700": $gray-700,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900,
+  "light-blue": $light-blue,
+  "green-100": $green-100,
+  "telegram": $telegram
+);

@@ -1,0 +1,74 @@
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "./bootstrap";
+@import "../fonts/fonts";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.logo-telegram {
+  width: 64px;
+}
+
+.section-hello {
+  &-text {
+    @media (max-width: 991px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+}
+
+.btn-telegram {
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  border: none;
+  &:hover,
+  &:active,
+  &:focus,
+  &:first-child:active {
+    color: #ffffff;
+  }
+  &:after {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 120px;
+    height: 100%;
+    content: "";
+    animation: shine 3s infinite linear;
+    background-image: linear-gradient(
+    120deg,
+    rgba(255,255,255, 0) 30%,
+    rgba(255,255,255, 0.4),
+    rgba(255,255,255, 0) 70%
+    );
+  }
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+  20% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
